@@ -4,7 +4,7 @@ All tests were produced on Ubuntu 16.04 through the shellphish/mechaphish docker
 
 ## About
 
-Considering the high rate of automation in binary analysis and exploitation, the question spawns: what methods do have to preventing automated hacking. The [Cyber Grand Challenge](https://www.darpa.mil/program/cyber-grand-challenge) hosted by DARPA, proved that we are on the brink of automation, but an effective method to halting executors may be Adversarial code injects. 
+Considering the high rate of automation in binary analysis and exploitation, the question spawns: what methods do have to preventing automated hacking. The [Cyber Grand Challenge](https://www.darpa.mil/program/cyber-grand-challenge) (CGC) hosted by DARPA, proved that we are on the brink of automation, but an effective method to halting executors may be Adversarial code injects. 
 
 ## Purpose
 
