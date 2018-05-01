@@ -10,10 +10,10 @@ The simplest way to use Shellphish's Driller & Patcherex is through their mechap
 sudo apt-get install docker-ce
 
 #pull the mechaphish container
-sudo docker pull shellphish/mechapish
+sudo docker pull shellphish/mechaphish
 
 #run the image with loaded binaries
-sudo docker run -it --rm -v $PWD:/home/angr/Filler/ shellpish/mechaphish
+sudo docker run -it --rm -v $PWD:/home/angr/Filler/ shellphish/mechaphish
 ```
 
 ## Usage
