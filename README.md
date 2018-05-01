@@ -3,7 +3,7 @@ Testing framework for determining the effectiveness of adversarial code on Drill
 The test was produced on Ubuntu 16.04
 
 ## Installing Driller & Patcherex
-The simplest way to use Shellphish's Driller & Patcherex is therough their mechaphish docker container
+The simplest way to use Shellphish's Driller & Patcherex is through their mechaphish docker container
 
 ```bash
 #insall docker
