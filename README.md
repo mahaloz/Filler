@@ -11,12 +11,12 @@ Considering the high rate of automation in binary analysis and exploitation, the
 The purpose of these test are to evaluate the *effectiveness* of Adversarial code injects on Symbolic Execution and Fuzzing.
 
 ## Test Components
-* About
-* Test Design
-* Replicating Test
-* Current Results
+* [About](README.md)
+* [Test Design](Test-Design.md)
+* [Replicating Test](Replicating-Test.md)
+* [Results](Results.md)
 * Misc Scripts
-* Future Research
+* [Future Research](Future-Research.md)
 
 ## Installing Driller & Patcherex
 The simplest way to use Shellphish's Driller & Patcherex is through their mechaphish docker container
