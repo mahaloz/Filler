@@ -18,7 +18,14 @@ The binaries used in the CGC included multiple self-written system calls, seven 
 
 ## Test Model
 
+![Test Model](images/design.png)
 
+## Model Objectives
+* Demonstrate behaviour change by constant demonstration
+* Show the effectiveness of patches using AFL statistics
+* Keep each patch constant 
 
-
-
+## Technicals
+### Testing
+* [shellphuzz](https://github.com/shellphish/fuzzer) was used to activate Driller and AFL
+  * the fuzz.stats object was used to collect data
