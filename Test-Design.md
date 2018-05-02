@@ -26,6 +26,10 @@ The binaries used in the CGC included multiple self-written system calls, seven 
 * Keep each patch constant 
 
 ## Technicals
-### Testing
+### Fuzzing
 * [shellphuzz](https://github.com/shellphish/fuzzer) was used to activate Driller and AFL
   * the fuzz.stats object was used to collect data
+### Testing
+* [shellphish-qemu](https://github.com/shellphish/shellphish-qemu) was used to validate a patch is still executable
+
+
