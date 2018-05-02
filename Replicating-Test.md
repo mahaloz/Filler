@@ -1,24 +1,7 @@
-# Filler
-Testing framework for determining the effectiveness of adversarial code on Driller (AFL + SE).
-All tests were produced on Ubuntu 16.04 through the shellphish/mechaphish docker image.
+# Replicating the Test
+The technical breakdown for running and testing binaries. Shellphuzz was used for Driller, and patcherex for patching
 
-## About
-
-Considering the high rate of automation in binary analysis and exploitation, the question spawns: what methods do have to preventing automated hacking. The [Cyber Grand Challenge](https://www.darpa.mil/program/cyber-grand-challenge) hosted by DARPA, proved that we are on the brink of automation, but an effective method to halting executors may be Adversarial code injects. 
-
-## Purpose
-
-The purpose of these test are to evaluate the *effectiveness* of Adversarial code injects on Symbolic Execution and Fuzzing.
-
-## Test Components
-* About
-* Test Design
-* Replicating Test
-* Current Results
-* Misc Scripts
-* Future Research
-
-## Installing Driller & Patcherex
+## Installing Driller, Patcherex, and Shellphish-QEMU
 The simplest way to use Shellphish's Driller & Patcherex is through their mechaphish docker container
 
 ```bash
@@ -31,3 +14,12 @@ sudo docker pull shellphish/mechaphish
 #run the image with loaded binaries
 sudo docker run -it --rm -v $PWD:/home/angr/Filler/ shellphish/mechaphish
 ```
+## Running the initial binaries
+Running the initial binaries is as simplea as invoking the shellphish-qemu cgc base with each binary. For example, running CADET_00001 once in the mechaphish docker:
+
+```bash
+~/.virtualenvs/angr-pypy/site-packages/shellphish_qemu/bin/shellphish-qemu-cgc-base ~/Filler/binaries_unpatched/CADET_00001
+```
+
+
+
