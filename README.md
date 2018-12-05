@@ -15,7 +15,7 @@ The purpose of these test are to evaluate the *effectiveness* of Adversarial cod
 * [Test Design](Test-Design.md)
 * [Replicating Test](Replicating-Test.md)
 * [Results](Results.md)
-* Misc Scripts
+* Misc Scripts (deprecated)
 * [Future Research](Future-Research.md)
 
 ## Installing Driller & Patcherex
